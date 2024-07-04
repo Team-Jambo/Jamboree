@@ -1,0 +1,28 @@
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 0.1 rem;
+    text-transform: capitalize;
+    list-style: 1.25;
+    margin-bottom: 0.75rem;
+}
+.section {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+}
+@media screen and ( min-width: 990px) {
+    .section{
+        width: 95vw;
+    }
+}
+.icon {
+    font-size: 3rem;
+    color: orange;
+}    
+.section-centre{
+    margin: 0rem auto;
+
+}
+
