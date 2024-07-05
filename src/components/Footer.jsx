@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="h-72vh w-max-full bg-black flex flex-row leading-7 p-6  gap-x-44 hover:underline ">
+    <div className="h-72vh w-max-full bg-[#1E293B] flex flex-row leading-7 p-6  gap-x-44">
       <div className="flex flex-col text-white ">
         <h2
           style={{ fontFamily: "Fantasy, sans-serif" }}
@@ -18,28 +18,28 @@ const Footer = () => {
         >
           Use Jamboree
         </h2>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Pricing Event </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Event Registration </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Jamboree Mobile </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Jamboree Ticket App </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Jamboree Check-In App </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> FAQs </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Sitemap </Link>
         </span>
-        <span className="pt-8">© 2024 Jamboree Event </span>
+        <span className="pt-8 ">© 2024 Jamboree Event </span>
       </div>
 
       <div className="flex flex-col text-white">
@@ -49,25 +49,25 @@ const Footer = () => {
         >
           Plan Events
         </h2>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Event Planning</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Post your event online</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Event Payment System </Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Event Management Software</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Halloween Party Planning</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Virtual Events Platform</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> QR Codes for Event Check-In</Link>
         </span>
       </div>
@@ -79,16 +79,16 @@ const Footer = () => {
         >
           Find Events
         </h2>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Upcoming Events</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Citadel Music Concert 2024</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link> Rapperholic Concert 2023</Link>
         </span>
-        <span>
+        <span className=" hover:text-orange-400">
           <Link>Afrochella 2023</Link>
         </span>
       </div>
@@ -101,24 +101,24 @@ const Footer = () => {
           Connect With Us
         </h2>
 
-        <div className="flex items-center">
+        <div className="flex items-center hover:text-orange-400 cursor-pointer">
           <MailIcon className="h-4 mr-1" />
           <span className="ml-1"> Contact Support</span>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center hover:text-orange-400 cursor-pointer">
           <FacebookIcon className="h-4 mr-1" />
           <span className="ml-1"> Facebook </span>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center hover:text-orange-400 cursor-pointer">
           <TwitterIcon className="h-4 mr-1" />
           <span className="ml-1"> Twitter </span>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center hover:text-orange-400 cursor-pointer">
           <LinkedinIcon className="h-4 mr-1" />
           <span className="ml-1"> LiknkedIn</span>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center hover:text-orange-400 cursor-pointer">
           <InstagramIcon className="h-4 mr-1" />
           <span className="ml-1"> Instagram </span>
         </div>

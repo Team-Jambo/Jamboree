@@ -1,6 +1,11 @@
 export const A = {
   NAVLINKS: [
     {
+      name: "Home",
+      path: "/",
+    },
+
+    {
       name: "Contact",
       path: "/contact",
     },

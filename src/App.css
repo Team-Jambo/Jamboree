@@ -1,15 +1,23 @@
 .swiper {
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  }
-  
+  width: 100vw;
+  height: 100vh;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.link-hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-hover:hover {
+  color: #bc19a7;
+}
