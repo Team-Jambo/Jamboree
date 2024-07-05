@@ -21,7 +21,9 @@ import twelve from './images/twelve.jpeg'
 import bibi from './images/bibi.webp'
 import lala from './images/lala.jpg'
 import kiki from './images/kiki.jpg'
+import whizz from './images/whizz.jpg'
+import africa from './images/africa.jpg'
 
-export { sliderone, slidertwo, slidertree, sliderfour, kofi, diana, stone, sliderten, eventone, eventtwo, eventthree, eventfour, eventfive, eventsix, eventsev, eventeight, eventnine, eventte, eleven, twelve, bibi, lala, kiki }
+export { sliderone, slidertwo, slidertree, sliderfour, kofi, diana, stone, sliderten, eventone, eventtwo, eventthree, eventfour, eventfive, eventsix, eventsev, eventeight, eventnine, eventte, eleven, twelve, bibi, lala, kiki, whizz, africa }
 
 

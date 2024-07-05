@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="h-72vh w-max-full bg-black flex flex-row leading-7 p-6  gap-x-44 hover:underline ">
+    <div className="h-72vh w-max-full bg-black flex flex-row leading-7 p-6  gap-x-44 hover:underline pt-4 ">
       <div className="flex flex-col text-white ">
         <h2
           style={{ fontFamily: "Fantasy, sans-serif" }}

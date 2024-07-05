@@ -2,7 +2,7 @@ import { Heart } from 'lucide-react';
 import React from 'react'
 
 
-const EventsCard = ({ image, name }) => {
+const EventsCard = ({ image, name, date, price, onClick }) => {
     return (
 
 
@@ -14,7 +14,10 @@ const EventsCard = ({ image, name }) => {
             <div className=" flex flex-row relative pb-20 gap-x-10 overflow-x-hidden">
                 <img src={image} alt={name} className='w-full h-[300px] object-cover' />
                 <p className="absolute left-2 bottom-10 text-black font-bold  ">{name}</p>
-                <p></p>
+            </div>
+            <div className='flex justify-between, px-4 '>
+                <p className=''>{date}</p>
+                <p>{price}</p>
             </div>
 
         </div>
