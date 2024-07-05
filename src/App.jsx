@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Sign from "./pages/Sign";
 import RootLayout from "./layouts/RootLayout";
 import './App.css'
+import Events from "./pages/Landing/components/Events";
 
 function App() {
   const router = createBrowserRouter([
@@ -16,7 +17,7 @@ function App() {
         // { path: "/about", element: <About /> },
         { path: "/contact", element: <Contact /> },
         { path: "/signIn", element: <Sign /> },
-        { path: "/open", element: <Open /> }
+        { path: "/events", element: <Events /> }
       ],
     },
   ]);

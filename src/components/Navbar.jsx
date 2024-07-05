@@ -32,9 +32,9 @@ const Navbar = () => {
               key={index}
               to={item.path}
               style={{ color: "white", textDecoration: "none" }}
-              onMouseOver={(e) => (e.currentTarget.style.color = "#BC19A7")}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#ab47bc")}
               onMouseOut={(e) => (e.currentTarget.style.color = "#fff")}
-              className="link-hover"
+              className="link-hover" 
             >
               {item.name}
             </Link>
