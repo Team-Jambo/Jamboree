@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="h-full w-full">
       <Swiper
         spaceBetween={30}
-        effect={'fade'}
+        effect={"fade"}
         navigation={true}
         pagination={{
           clickable: true,
@@ -25,7 +25,6 @@ const Hero = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
         className="mySwiper"
       >
@@ -49,9 +48,7 @@ const Hero = () => {
         <button className='text-black hover: bg-violet-400  hover:bg-white active:bg-yellow-50 rounded-3xl w-40 h-10 font-bold mt-7 button ' onClick={() =>navigate("./contact")}>CREATE AN EVENT</button>
       </div>
     </div>
-
-
   );
-}
+};
 
-export default Hero
+export default Hero;

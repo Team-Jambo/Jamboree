@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { A } from "../constants";
-import { logoTwoImage } from "../assets/logo";
+import { logoFourImage } from "../assets/logo";
 import { Search } from "lucide-react";
 import jambo from '../assets/images/jambo.png'
 
 
 const Navbar = () => {
   return (
-    <div className="bg-black flex justify-between gap-2 items-center px-10">
-      <div className="flex items-center ">
-        <div className="w-[110px]">
-          <Link to='/'>
-            <img src={jambo} />
+    <div className=" bg-black  backdrop-blur-[1rem] flex justify-between gap-2 items-center px-14 shadow-black-500/50">
+      <div className="flex items-center">
+        <div className="w-[100px] ">
+          <Link>
+            <img src={logoFourImage} />
           </Link>
         </div>
 
@@ -26,9 +26,16 @@ const Navbar = () => {
         </div>
       </div>
       <div>
-        <div className="text-white flex gap-10">
+        <div className="text-white flex gap-10 ml-56  ">
           {A.NAVLINKS.map((item, index) => (
-            <Link key={index} to={item.path}>
+            <Link
+              key={index}
+              to={item.path}
+              style={{ color: "white", textDecoration: "none" }}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#BC19A7")}
+              onMouseOut={(e) => (e.currentTarget.style.color = "#fff")}
+              className="link-hover"
+            >
               {item.name}
             </Link>
           ))}

@@ -16,4 +16,15 @@
     object-fit: cover;
    
   }
+
+}
+
+.link-hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-hover:hover {
+  color: #bc19a7;
+}
   
